@@ -191,3 +191,119 @@ header nav a:hover{
     padding: 18px 35px;
     background-color: #8ea1e1;
 }
+
+/* footer */
+
+footer{
+    width: 100%;
+    height: 700px;
+    background-color: #23272a;
+    padding-top: 80px;
+}
+
+.footer-top{
+    width: 70%;
+    height: 400px;
+    margin:  auto;
+    border-bottom: 2px solid #7188d9;
+    position: relative;
+}
+
+.row-left{
+    width: 20%;
+    display: inline-block;
+}
+
+.row-left h3{
+    color: #7188d9;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.row-left span{
+    color: white;
+    line-height: 10px;
+}
+
+.row-left span img{
+    height: 15px;
+    vertical-align: text-bottom;
+}
+
+.row-left span i{
+    font-size: 10px;
+}
+
+.row-left ul li{
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 20px;
+    padding-top: 24px;
+}
+
+/* liste */
+.row-lista{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+}
+
+.row-lista:nth-of-type(2)
+{
+    left: 30%;
+}
+.row-lista:nth-of-type(3)
+{
+    left: 45%;
+}
+.row-lista:nth-of-type(4)
+{
+    left: 60%;
+}
+.row-lista:nth-of-type(5)
+{
+    left: 75%;
+}
+
+
+.lista{
+    display: inline-block;
+}
+
+.lista .titolo-lista{
+    color: #7188d9;
+    font-weight: 800;
+    padding-top: 20px;
+}
+
+.lista ul li{
+    list-style: none;
+    font-weight: 600;
+    margin: 12px 0;
+} 
+
+.lista ul li a:hover{
+    text-decoration: underline;
+}
+
+/* footer bottom */
+
+.footer-bottom{
+    width: 70%;
+    margin: 40px auto;
+    position: relative;
+}
+
+.footer-bottom div{
+    display: inline-block;
+}
+
+.footer-bottom .btn{
+    display: inline-block;
+    color: white;
+    background-color: #8ea1e1;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
